@@ -6,11 +6,11 @@
 ### For run this, use: **java -jar TaskTrackerCLI.jar [argument-0] [optional-sub-arguments]**
 
 ## List of arguments:
-### - add <task description>
-### - update <task id> <new task description>
-### - delete <task id>
-### - mark-in-progress <task id>
-### - mark-done <task id>
+### - add [task description]
+### - update [task id] [new task description]
+### - delete [task id]
+### - mark-in-progress [task id]
+### - mark-done [task id]
 ### - list
 ### - list done
 ### - list todo
