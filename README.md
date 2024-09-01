@@ -6,14 +6,15 @@
 ### For run this, use: **java -jar TaskTrackerCLI.jar [argument-0] [optional-sub-arguments]**
 
 ## List of arguments:
-### - add [task description]
-### - update [task id] [new task description]
-### - delete [task id]
-### - mark-in-progress [task id]
-### - mark-done [task id]
-### - list
-### - list done
-### - list todo
-### - list in-progress
-###
-### How to run with arguments? Use, this example: **java -jar TaskTrackerCLI.jar add "Get pizza for me and my friends!"**
+ - add [task description] -> Add a new task in database
+ - update [task id] [new task description] -> Update task with this add, add a new description
+ - delete [task id] -> Delete task with this id
+ - mark-in-progress [task id] -> Mark task with this id in progress
+ - mark-done [task id] -> Mark task with this id as done
+ - list -> List all tasks in database
+ - list done -> List all tasks with status: DONE
+ - list todo -> List all tasks with status: TO-DO
+ - list in-progress -> List all tasks with status: in progress
+ 
+## How to run with arguments? 
+### Example: **java -jar TaskTrackerCLI.jar add "Get pizza for me and my friends!"**
